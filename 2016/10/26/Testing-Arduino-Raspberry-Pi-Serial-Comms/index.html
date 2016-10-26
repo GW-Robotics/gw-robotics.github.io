@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="GW Robotics"/>
+        <meta property="og:title" content="Testing Arduino-Raspberry Pi Serial Comms"/>
     
 
     <!--Open Graph Description-->
@@ -33,7 +33,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
     
 
     <!--Page Cover-->
@@ -44,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>meeting - GW Robotics</title>
+    <title>Testing Arduino-Raspberry Pi Serial Comms - GW Robotics</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -137,9 +137,7 @@
 <div class="container">
 
     <!-- Main Content -->
-    
-
-<div class="row">
+    <div class="row">
     <div class="col-sm-12">
 
         <!--Title and Logo-->
@@ -147,27 +145,63 @@
     <div class="logo">
         <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
         
-            <h1 id="main-title" class="title">meeting</h1>
-        
     </div>
 </header>
-		
-		<div class="post">
-			
-		</div>
-		
-        <section class="main archive-container">
+
+        <section class="main">
             
-                <div class="archive-post">
-    <a href="/2016/10/15/First-Software-Meeting-Summary/">
-        <span class="archive-date">
-            Oct 2016
-        </span>
-        First Software Meeting Summary
-    </a>
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2016/10/26/Testing-Arduino-Raspberry-Pi-Serial-Comms/">
+                Testing Arduino-Raspberry Pi Serial Comms
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2016-10-26</span>
+            
+            <a href="#disqus_thread" class="comments">Comments</a>
+            
+                <span class="category">
+                    <a href="/categories/control-systems/">control-systems</a>
+                </span>
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <p>Tonight, Nam went through a <a href="http://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/" target="_blank" rel="external">tutorial</a> on communicating via a USB cable between an Arduino and a Raspberry Pi. Here are a few things to note:</p>
+<ul>
+<li>The tutorial did not mention the need to download PySerial. This was done via pip.</li>
+<li>The Arduino sketch was compiled via a computer, and then the Arduino was connected to the Raspberry Pi.</li>
+<li>The Raspberry Pi python program was written using Nano.</li>
+</ul>
+<p>The test program was successful. The next logical step is to work on creating a Python Module and an Arduino Sketch to control the Arduino’s Digital I/O through Serial.</p>
+
+    </div>
+
+    
+
+    
+        <div class="post-tags">
+            <i class="fa fa-tags" aria-hidden="true"></i>
+            <a href="/tags/setup/">#setup</a>
+        </div>
+    
+
+    <!-- Comments -->
+    
+
 </div>
-            
         </section>
+
     </div>
 </div>
 
