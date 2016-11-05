@@ -157,6 +157,40 @@
 
     <div class="post-header index">
         <h1 class="title">
+            <a href="/2016/11/05/Software-Meeting-11-5-16-Notes/">
+                Software Meeting 11/5/16 Notes
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2016-11-05</span>
+            
+            
+            
+                <span class="category">
+                    <a href="/categories/control-systems/">control-systems</a>
+                </span>
+            
+        </div>
+    </div>
+
+    
+        <div class="content">
+            <p>Today’s meeting, we basically just wrote some pseudocode for the drivetrain and for a generic sensor. These will be expanded on once more features are needed or when a physical part is given to us. As of right now they are as follows:</p>
+<p>drivetrain.txt:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">ultrasonic [8]</div><div class="line">encoder [6]</div><div class="line">gyro&amp;acceleratometer</div><div class="line">motor [6]</div><div class="line"></div><div class="line">drive (forward_speed, rotation, strafe_speed):</div><div class="line">    left motors = forward_speed</div><div class="line">    right motors = forward_speed</div><div class="line">    </div><div class="line">    strafe motors = strafe_speed</div><div class="line">    </div><div class="line">    if rotation &lt; 0</div><div class="line">        clockwise </div><div class="line">        left motors = forward_speed</div><div class="line">        right motors = - forward_speed</div><div class="line">    else if rotation &gt; 0</div><div class="line">        anticlockwise</div><div class="line">            right = forward_speed</div><div class="line">            left = -forward_speed</div><div class="line">            </div><div class="line">get ultrasonic in array:</div><div class="line">    return value of ultrasonic sensor at index</div><div class="line"></div><div class="line">get encoder in array:</div><div class="line">    return value of encoder at index</div><div class="line"></div><div class="line">get gyro rotation:</div><div class="line">    return value of gyro at index</div><div class="line"></div><div class="line">get acceleration on axis:</div><div class="line">    if x axis:</div><div class="line">        TODO: Stuff</div><div class="line">    if y axis:</div><div class="line">        TODO: Stuff</div><div class="line">    if z axis:</div><div class="line">        TODO: Stuff</div><div class="line">        </div><div class="line">        </div><div class="line">limit:</div><div class="line">    while true</div><div class="line">        if absolute value speed &lt; limit</div><div class="line">            speed *= limit/speed</div><div class="line">        else if abs(speed) &gt; limit</div><div class="line">	    speed *= limit/speed</div></pre></td></tr></table></figure></p>
+<p>sensor.txt:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">pin_value [2]</div><div class="line"></div><div class="line"># y = mx + b</div><div class="line">m</div><div class="line">b</div><div class="line"></div><div class="line">get:</div><div class="line">return m * voltage + b</div></pre></td></tr></table></figure></p>
+<p>We also are planning on using Cloud9 for collaborative coding in real-time, however, it seems that you need to input credit card information to use a free service. This is inconvenient for those without a credit card, so an alternative will be looked into.</p>
+
+        </div>
+    
+
+</div>
+            
+                
+<div class="post">
+
+    <div class="post-header index">
+        <h1 class="title">
             <a href="/2016/10/29/Design-Meeting-10-29-2016-Notes/">
                 Design Meeting 10/29/2016 Notes
             </a>
@@ -434,6 +468,10 @@
         <ul>
             
             <li>
+                <a class="footer-post" href="/2016/11/05/Software-Meeting-11-5-16-Notes/">Software Meeting 11/5/16 </a>
+            </li>
+            
+            <li>
                 <a class="footer-post" href="/2016/10/29/Design-Meeting-10-29-2016-Notes/">Design Meeting 10/29/2016</a>
             </li>
             
@@ -443,10 +481,6 @@
             
             <li>
                 <a class="footer-post" href="/2016/10/26/Testing-Arduino-Raspberry-Pi-Serial-Comms/">Testing Arduino-Raspberry</a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2016/10/15/First-Software-Meeting-Summary/">First Software Meeting Su</a>
             </li>
             
         </ul>
@@ -460,11 +494,11 @@
     <ul>
         
         <li>
-            <a class="footer-post" href="/categories/mechanical/">mechanical</a>
+            <a class="footer-post" href="/categories/meeting/">meeting</a>
         </li>
         
         <li>
-            <a class="footer-post" href="/categories/meeting/">meeting</a>
+            <a class="footer-post" href="/categories/mechanical/">mechanical</a>
         </li>
         
         <li>
