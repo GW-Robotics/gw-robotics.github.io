@@ -157,6 +157,47 @@
 
     <div class="post-header index">
         <h1 class="title">
+            <a href="/2016/11/08/HOW-TO-OpenCV-Installation-Windows/">
+                HOW-TO: OpenCV Installation (Windows)
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2016-11-08</span>
+            
+            
+            
+                <span class="category">
+                    <a href="/categories/control-systems/">control-systems</a>
+                </span>
+            
+        </div>
+    </div>
+
+    
+        <div class="content">
+            <p>This tutorial is for installation of OpenCV for Python on a Windows PC from prebuilt files. A fully detailed tutorial can be found <a href="http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows" target="_blank" rel="external">at the OpenCV documentation</a>.</p>
+<h2 id="To-Install-OpenCV-and-Dependencies"><a href="#To-Install-OpenCV-and-Dependencies" class="headerlink" title="To Install OpenCV and Dependencies"></a>To Install OpenCV and Dependencies</h2><p>First, make sure that your computer has the right Python setup with Numpy. Matplotlib is optional and is mostly for use with the tutorials. You can check that you have Python 2.7.whatever using:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python -V</div></pre></td></tr></table></figure>
+<p>After verifying that you have Python 2.7, you can install the packages using Pip using:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">pip install numpy</div><div class="line">pip install matplotlib</div></pre></td></tr></table></figure>
+<p>Next, download the OpenCV installer from <a href="https://sourceforge.net/projects/opencvlibrary/?source=typ_redirect" target="_blank" rel="external">here</a>. Double-click and run it. Then navigate to the extracted folder opencv/build/python/2.7/x86 and move “cv2.pyd” to C:/Python27/lib/site-packages.</p>
+<h2 id="To-Verify-Your-Installation"><a href="#To-Verify-Your-Installation" class="headerlink" title="To Verify Your Installation"></a>To Verify Your Installation</h2><p>Type the following command:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python</div></pre></td></tr></table></figure>
+<p>This opens the Python Interpreter, where you can type the following and run:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> numpy; <span class="keyword">import</span> cv2; <span class="keyword">print</span> cv2.__version__</div></pre></td></tr></table></figure>
+<p>If it runs with no errors, then everything was installed correctly!</p>
+
+        </div>
+    
+
+</div>
+            
+                
+<div class="post">
+
+    <div class="post-header index">
+        <h1 class="title">
             <a href="/2016/11/05/Software-Meeting-11-5-16-Notes/">
                 Software Meeting 11/5/16 Notes
             </a>
@@ -468,6 +509,10 @@
         <ul>
             
             <li>
+                <a class="footer-post" href="/2016/11/08/HOW-TO-OpenCV-Installation-Windows/">HOW-TO: OpenCV Installati</a>
+            </li>
+            
+            <li>
                 <a class="footer-post" href="/2016/11/05/Software-Meeting-11-5-16-Notes/">Software Meeting 11/5/16 </a>
             </li>
             
@@ -477,10 +522,6 @@
             
             <li>
                 <a class="footer-post" href="/2016/10/29/HOW-TO-Arduino-with-Raspberry-Pi/">HOW-TO: Arduino with Rasp</a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2016/10/26/Testing-Arduino-Raspberry-Pi-Serial-Comms/">Testing Arduino-Raspberry</a>
             </li>
             
         </ul>
@@ -494,11 +535,11 @@
     <ul>
         
         <li>
-            <a class="footer-post" href="/categories/meeting/">meeting</a>
+            <a class="footer-post" href="/categories/mechanical/">mechanical</a>
         </li>
         
         <li>
-            <a class="footer-post" href="/categories/mechanical/">mechanical</a>
+            <a class="footer-post" href="/categories/meeting/">meeting</a>
         </li>
         
         <li>
