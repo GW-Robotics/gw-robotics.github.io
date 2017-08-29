@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on GW Robotics</title>
+    <link>https://gw-robotics.github.io/categories/</link>
+    <description>Recent content in Categories on GW Robotics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, GW Robotics; all rights reserved.</copyright>
+    
+	<atom:link href="https://gw-robotics.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Control Systems</title>
+      <link>https://gw-robotics.github.io/categories/control-systems/</link>
+      <pubDate>Tue, 08 Nov 2016 14:37:34 +0000</pubDate>
+      
+      <guid>https://gw-robotics.github.io/categories/control-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Cad</title>
+      <link>https://gw-robotics.github.io/categories/design-cad/</link>
+      <pubDate>Sat, 29 Oct 2016 11:11:25 +0000</pubDate>
+      
+      <guid>https://gw-robotics.github.io/categories/design-cad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting</title>
+      <link>https://gw-robotics.github.io/categories/meeting/</link>
+      <pubDate>Sat, 15 Oct 2016 00:36:01 +0000</pubDate>
+      
+      <guid>https://gw-robotics.github.io/categories/meeting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
