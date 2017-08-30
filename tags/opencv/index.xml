@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opencv on GW Robotics</title>
+    <link>https://gw-robotics.github.io/tags/opencv/</link>
+    <description>Recent content in Opencv on GW Robotics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, GW Robotics; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 08 Nov 2016 14:37:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://gw-robotics.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HOW-TO: OpenCV Installation (Windows)</title>
+      <link>https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/</link>
+      <pubDate>Tue, 08 Nov 2016 14:37:34 +0000</pubDate>
+      
+      <guid>https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/</guid>
+      <description>This tutorial is for installation of OpenCV for Python on a Windows PC from prebuilt files. A fully detailed tutorial can be found at the OpenCV documentation.
+To Install OpenCV and Dependencies First, make sure that your computer has the right Python setup with Numpy. Matplotlib is optional and is mostly for use with the tutorials. You can check that you have Python 2.7.whatever using:
+python -V  After verifying that you have Python 2.</description>
+    </item>
+    
+  </channel>
+</rss>

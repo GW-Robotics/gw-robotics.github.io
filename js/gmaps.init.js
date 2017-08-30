@@ -8,7 +8,8 @@ function map () {
   if ($('#map').length) {
     var lat = $('#gmap-lat').val()
     var lng = $('#gmap-lng').val()
-    var image = '/img/marker.png'
+    var direction = $('#gmap-dir').val()
+    var image = $('#gmap-marker').val()
 
     var styles =
       [
@@ -54,8 +55,14 @@ function map () {
     map.addMarker({
       lat: lat,
       lng: lng,
-      icon: image /* ,
-      title: '',
+      icon: image,
+      click: function (e) {
+        // when we get an address with spaces ...
+        var url = 'https://maps.google.com?daddr=' + direction.split('match').join('replace')
+        window.open(url, '_blank')
+      },
+      title: direction
+      /* ,
       infoWindow: {
       content: '<p>HTML Content</p>'
       } */

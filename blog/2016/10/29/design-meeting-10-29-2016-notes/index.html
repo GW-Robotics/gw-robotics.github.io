@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design Meeting 10/29/2016 Notes</title>
+  <meta name="author" content="" />
+
+  
+  <meta name="keywords" content="robotics, hugo, go">	
+  
+
+  
+  <meta name="description" content="Information about the GW Robotics team">	
+  
+
+  <meta name="generator" content="Hugo 0.25.1" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="https://gw-robotics.github.io/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="https://gw-robotics.github.io/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="https://gw-robotics.github.io/css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="https://gw-robotics.github.io/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://gw-robotics.github.io/img/apple-touch-icon.png" />
+  
+
+  <link href="https://gw-robotics.github.io/css/owl.carousel.css" rel="stylesheet">
+  <link href="https://gw-robotics.github.io/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="https://gw-robotics.github.io/index.xml" type="application/rss+xml" title="GW Robotics">
+
+  
+  <meta property="og:title" content="Design Meeting 10/29/2016 Notes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/blog/2016/10/29/design-meeting-10-29-2016-notes//" />
+  <meta property="og:image" content="img/logo.png" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://gw-robotics.github.io/">
+                    <img src="https://gw-robotics.github.io/img/logo.png" alt="Design Meeting 10/29/2016 Notes logo" class="hidden-xs hidden-sm">
+                    <img src="https://gw-robotics.github.io/img/logo-small.png" alt="Design Meeting 10/29/2016 Notes logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Design Meeting 10/29/2016 Notes - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/blog/">Blog</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/faq/">FAQ</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/contact/">Contact</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Design Meeting 10/29/2016 Notes</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">October 29, 2016</p>
+
+                        <div id="post-content">
+                          <p>TL;DR We talked about drivetrain design.</p>
+
+<p>It was confirmed that we are not using a suspension system on the middle wheels with the H-drive. This decision was mainly to avoid complexity. The issue of the wheels hitting something was discussed and the possible sensors needed to detect that. It was decided that we just won&rsquo;t hit anything unexpected, or use the ultrasonic sensor to detect if we do by chance. It was also stated that the frame will be above the wheels, allowing us to move the wheels to the edge of the size constraint. We will also be using aluminium for as many things as possible and avoid steel.</p>
+
+<p>The meeting ended with a discussion about the CO2 tank used for extinguishing the fires. The pressure of the tank will be at approximately 850 psi, but the Versa Valve that must be used to be eligible for a separate challenge can take a maximum of 500 psi. A regulator (source TBD) was suggested to bring down the pressure.</p>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
+                <input type="hidden" name="q" value="site:https://gw-robotics.github.io/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            <li><a href="https://gw-robotics.github.io/categories/control-systems">control-systems (4)</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/categories/design-cad">design-cad (1)</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/categories/meeting">meeting (1)</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+    <div class="panel-heading">
+      <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            <li><a href="https://gw-robotics.github.io/tags/control-systems"><i class="fa fa-tags"></i> control-systems</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/design"><i class="fa fa-tags"></i> design</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/how-to"><i class="fa fa-tags"></i> how-to</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/meeting"><i class="fa fa-tags"></i> meeting</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/notes"><i class="fa fa-tags"></i> notes</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/opencv"><i class="fa fa-tags"></i> opencv</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/seas-innovation-challenge"><i class="fa fa-tags"></i> seas-innovation-challenge</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/setup"><i class="fa fa-tags"></i> setup</a>
+            </li>
+            
+            <li><a href="https://gw-robotics.github.io/tags/vision"><i class="fa fa-tags"></i> vision</a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About us</h4>
+
+            We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+             
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://gw-robotics.github.io/blog/2016/12/21/seas-innovation-challenge-start/">
+                          
+                            <img src="https://gw-robotics.github.io/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://gw-robotics.github.io/blog/2016/12/21/seas-innovation-challenge-start/">SEAS Innovation Challenge - Start</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/">
+                          
+                            <img src="https://gw-robotics.github.io/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/">HOW-TO: OpenCV Installation (Windows)</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://gw-robotics.github.io/blog/2016/11/05/software-meeting-11-5-16-notes/">
+                          
+                            <img src="https://gw-robotics.github.io/img/placeholder.png" class="img-responsive" alt="">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://gw-robotics.github.io/blog/2016/11/05/software-meeting-11-5-16-notes/">Software Meeting 11/5/16 Notes</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+             
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <strong>GW Robotics</strong>
+        <br>800 22nd St NW
+        <br>Washington, DC 20052
+        <br>
+        <strong>United States of America</strong>
+        <br>
+      </p>
+      
+
+
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2017, GW Robotics; all rights reserved.</p>
+            
+            <p class="pull-right">
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y&v=3.exp"></script>
+
+<script src="https://gw-robotics.github.io/js/hpneo.gmaps.js"></script>
+<script src="https://gw-robotics.github.io/js/gmaps.init.js"></script>
+<script src="https://gw-robotics.github.io/js/front.js"></script>
+
+
+<script src="https://gw-robotics.github.io/js/owl.carousel.min.js"></script>
+
+
+  </body>
+</html>
