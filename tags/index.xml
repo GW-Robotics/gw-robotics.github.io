@@ -1,95 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on GW Robotics</title>
-    <link>https://gw-robotics.github.io/tags/</link>
-    <description>Recent content in Tags on GW Robotics</description>
+    <title>Tags on Universal</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2017, GW Robotics; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Dec 2016 13:34:59 +0000</lastBuildDate>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate>
     
-	<atom:link href="https://gw-robotics.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Control Systems</title>
-      <link>https://gw-robotics.github.io/tags/control-systems/</link>
-      <pubDate>Wed, 21 Dec 2016 13:34:59 +0000</pubDate>
+      <title>Go</title>
+      <link>https://example.org/tags/go/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/tags/control-systems/</guid>
+      <guid>https://example.org/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Design</title>
-      <link>https://gw-robotics.github.io/tags/design/</link>
-      <pubDate>Sat, 29 Oct 2016 11:11:25 +0000</pubDate>
+      <title>Golang</title>
+      <link>https://example.org/tags/golang/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/tags/design/</guid>
+      <guid>https://example.org/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>How To</title>
-      <link>https://gw-robotics.github.io/tags/how-to/</link>
-      <pubDate>Sat, 29 Oct 2016 02:04:04 +0000</pubDate>
+      <title>Hugo</title>
+      <link>https://example.org/tags/hugo/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/tags/how-to/</guid>
+      <guid>https://example.org/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Meeting</title>
-      <link>https://gw-robotics.github.io/tags/meeting/</link>
-      <pubDate>Sat, 05 Nov 2016 15:39:28 +0000</pubDate>
+      <title>Ipsum</title>
+      <link>https://example.org/tags/ipsum/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/tags/meeting/</guid>
+      <guid>https://example.org/tags/ipsum/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Notes</title>
-      <link>https://gw-robotics.github.io/tags/notes/</link>
-      <pubDate>Sat, 29 Oct 2016 11:11:25 +0000</pubDate>
+      <title>Programming</title>
+      <link>https://example.org/tags/programming/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/tags/notes/</guid>
+      <guid>https://example.org/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Opencv</title>
-      <link>https://gw-robotics.github.io/tags/opencv/</link>
-      <pubDate>Tue, 08 Nov 2016 14:37:34 +0000</pubDate>
+      <title>Theme</title>
+      <link>https://example.org/tags/theme/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/tags/opencv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seas Innovation Challenge</title>
-      <link>https://gw-robotics.github.io/tags/seas-innovation-challenge/</link>
-      <pubDate>Wed, 21 Dec 2016 13:34:59 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/tags/seas-innovation-challenge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>https://gw-robotics.github.io/tags/setup/</link>
-      <pubDate>Wed, 26 Oct 2016 02:15:43 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/tags/setup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vision</title>
-      <link>https://gw-robotics.github.io/tags/vision/</link>
-      <pubDate>Tue, 08 Nov 2016 14:37:34 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/tags/vision/</guid>
+      <guid>https://example.org/tags/theme/</guid>
       <description></description>
     </item>
     

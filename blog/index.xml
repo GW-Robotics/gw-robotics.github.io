@@ -1,87 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on GW Robotics</title>
-    <link>https://gw-robotics.github.io/blog/</link>
-    <description>Recent content in Blogs on GW Robotics</description>
+    <title>Blogs on Universal</title>
+    <link>https://example.org/blog/</link>
+    <description>Recent content in Blogs on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2017, GW Robotics; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Dec 2016 13:34:59 +0000</lastBuildDate>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="https://gw-robotics.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SEAS Innovation Challenge - Start</title>
-      <link>https://gw-robotics.github.io/blog/2016/12/21/seas-innovation-challenge-start/</link>
-      <pubDate>Wed, 21 Dec 2016 13:34:59 +0000</pubDate>
+      <title>Migrate from Jekyll</title>
+      <link>https://example.org/blog/2015/10/10/migrate-from-jekyll/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/blog/2016/12/21/seas-innovation-challenge-start/</guid>
-      <description>We have been selected to receive a free Raspberry Pi kit for the SEAS Innovation challenge! The components of the kit can be found from the product site here.
-The goal is to have the Raspberry Pi configured for use with the robot (expect a guide for that soon) over winter break and for a basic roadmap to be made for where to go with the project.
-Stay tuned for updates on the progress.</description>
+      <guid>https://example.org/blog/2015/10/10/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
-      <title>HOW-TO: OpenCV Installation (Windows)</title>
-      <link>https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/</link>
-      <pubDate>Tue, 08 Nov 2016 14:37:34 +0000</pubDate>
+      <title>Linked post</title>
+      <link>https://example.org/blog/2015/10/02/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/</guid>
-      <description>This tutorial is for installation of OpenCV for Python on a Windows PC from prebuilt files. A fully detailed tutorial can be found at the OpenCV documentation.
-To Install OpenCV and Dependencies First, make sure that your computer has the right Python setup with Numpy. Matplotlib is optional and is mostly for use with the tutorials. You can check that you have Python 2.7.whatever using:
-python -V  After verifying that you have Python 2.</description>
+      <guid>https://example.org/blog/2015/10/02/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
     </item>
     
     <item>
-      <title>Software Meeting 11/5/16 Notes</title>
-      <link>https://gw-robotics.github.io/blog/2016/11/05/software-meeting-11-5-16-notes/</link>
-      <pubDate>Sat, 05 Nov 2016 15:39:28 +0000</pubDate>
+      <title>Go is for lovers</title>
+      <link>https://example.org/blog/2015/09/17/go-is-for-lovers/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/blog/2016/11/05/software-meeting-11-5-16-notes/</guid>
-      <description>Today&amp;rsquo;s meeting, we basically just wrote some pseudocode for the drivetrain and for a generic sensor. These will be expanded on once more features are needed or when a physical part is given to us. As of right now they are as follows:
-drivetrain.txt:
-ultrasonic [8] encoder [6] gyro&amp;amp;acceleratometer motor [6] drive (forward_speed, rotation, strafe_speed): left motors = forward_speed right motors = forward_speed strafe motors = strafe_speed if rotation &amp;lt; 0 clockwise left motors = forward_speed right motors = - forward_speed else if rotation &amp;gt; 0 anticlockwise right = forward_speed left = -forward_speed get ultrasonic in array: return value of ultrasonic sensor at index get encoder in array: return value of encoder at index get gyro rotation: return value of gyro at index get acceleration on axis: if x axis: TODO: Stuff if y axis: TODO: Stuff if z axis: TODO: Stuff limit: while true if absolute value speed &amp;lt; limit speed *= limit/speed else if abs(speed) &amp;gt; limit speed *= limit/speed  sensor.</description>
+      <guid>https://example.org/blog/2015/09/17/go-is-for-lovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
-      <title>Design Meeting 10/29/2016 Notes</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/29/design-meeting-10-29-2016-notes/</link>
-      <pubDate>Sat, 29 Oct 2016 11:11:25 +0000</pubDate>
+      <title>Hugo is for lovers</title>
+      <link>https://example.org/blog/2015/08/03/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/blog/2016/10/29/design-meeting-10-29-2016-notes/</guid>
-      <description>TL;DR We talked about drivetrain design.
-It was confirmed that we are not using a suspension system on the middle wheels with the H-drive. This decision was mainly to avoid complexity. The issue of the wheels hitting something was discussed and the possible sensors needed to detect that. It was decided that we just won&amp;rsquo;t hit anything unexpected, or use the ultrasonic sensor to detect if we do by chance. It was also stated that the frame will be above the wheels, allowing us to move the wheels to the edge of the size constraint.</description>
+      <guid>https://example.org/blog/2015/08/03/hugo-is-for-lovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
     <item>
-      <title>HOW-TO: Arduino with Raspberry Pi</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/29/how-to-arduino-with-raspberry-pi/</link>
-      <pubDate>Sat, 29 Oct 2016 02:04:04 +0000</pubDate>
+      <title>Creating a new theme</title>
+      <link>https://example.org/blog/2015/06/24/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>https://gw-robotics.github.io/blog/2016/10/29/how-to-arduino-with-raspberry-pi/</guid>
-      <description>The 2017 robot will be interacting between the Arduino (for sensor reading and PWM output) and the Raspberry Pi through a Python module called Nanpy. The purpose of this how-to is for basic setup and usage that may not be completely obvious from Nanpy&amp;rsquo;s official documentation. We will be using repositories from the GW Robotics organisation as a way to standardise everyone&amp;rsquo;s code bases.
-Arduino Setup Please note, this is only necessary if the Arduino does not already have the Nanpy firmware compiled on it.</description>
-    </item>
-    
-    <item>
-      <title>Testing Arduino-Raspberry Pi Serial Comms</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</link>
-      <pubDate>Wed, 26 Oct 2016 02:15:43 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</guid>
-      <description>Tonight, Nam went through a tutorial on communicating via a USB cable between an Arduino and a Raspberry Pi. Here are a few things to note: - The tutorial did not mention the need to download PySerial. This was done via pip. - The Arduino sketch was compiled via a computer, and then the Arduino was connected to the Raspberry Pi. - The Raspberry Pi python program was written using Nano.</description>
-    </item>
-    
-    <item>
-      <title>First Software Meeting Summary</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/15/first-software-meeting-summary/</link>
-      <pubDate>Sat, 15 Oct 2016 00:36:01 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/blog/2016/10/15/first-software-meeting-summary/</guid>
-      <description>Today was the first software team meeting! As there is no finalised robot design, there was not much to talk about code-wise. Instead, points discussed during the GroupMe chat was just reiterated. They are as follows:
- Using Python on a Raspberry Pi to do most of the logic Using C/Arduino on an Arduino to get sensor input and output to motor controllers Arduino and Raspberry Pi will communicate through Serial protocols GitHub and Git will be used to manage the code The programming projects are as follows:  Driving Vision Baby grabbing mechanism Fire Extinguisher Mapping    The goal for the next programming meeting is to have more members, as well as start talking about pseudo-code.</description>
+      <guid>https://example.org/blog/2015/06/24/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
   </channel>
