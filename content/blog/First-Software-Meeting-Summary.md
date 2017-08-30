@@ -3,6 +3,7 @@ title = "First Software Meeting Summary"
 date = "2016-10-15T00:36:01"
 tags = ["meeting"]
 categories = ["meeting", "control-systems"]
+banner = "img/banners/banner-2.jpg"
 +++
 Today was the first software team meeting! As there is no finalised robot design, there was not much to talk about code-wise.
 Instead, points discussed during the GroupMe chat was just reiterated. They are as follows:

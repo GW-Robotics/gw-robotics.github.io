@@ -3,6 +3,7 @@ title = "Software Meeting 11/5/16 Notes"
 date = "2016-11-05T15:39:28"
 tags = ["meeting"]
 category = ["control-systems"]
+banner = "img/banners/banner-4.jpg"
 +++
 Today's meeting, we basically just wrote some pseudocode for the drivetrain and for a generic sensor. These will be expanded on once more features are needed or when a physical part is given to us. As of right now they are as follows:
 

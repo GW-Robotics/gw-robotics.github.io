@@ -3,6 +3,7 @@ title = "Design Meeting 10/29/2016 Notes"
 date = "2016-10-29T11:11:25"
 tags = ["meeting", "notes", "design"]
 categories = ["design-cad"]
+banner = "img/banners/banner-1.jpg"
 +++
 TL;DR We talked about drivetrain design.
 
