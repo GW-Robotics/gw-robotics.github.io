@@ -12,3 +12,7 @@ A robot is a machine that can complete a task that affects an environment.
 ## 2. HOW DO I JOIN?
 
 All you have to do is show up to a meeting! We meet (almost) every Wednesday night in Funger 223 at 9pm.
+
+## 3. WHAT IF I'M NOT AN *INSERT MAJOR HERE*?
+
+We are a multidisciplinary student organization that tries to be open to all majors and technical backgrounds. The only real requirement is showing up.
