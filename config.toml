@@ -119,9 +119,9 @@ paginate = 10
 [params.topbar]
     enable = true
     text = """<p class="hidden-sm hidden-xs">Join our <a href="https://orgsync.com/126751/chapter">OrgSync</a>!</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
+#      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+#      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+#      </p>
       """
 
 # Enable and disable widgets for the right sidebar
