@@ -114,7 +114,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Join our <a href="https://orgsync.com/126751/chapter">OrgSync</a>!</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -164,5 +164,5 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "These are just a few of our latest blog posts. They are written by team members about robot progress, technical how-tos, and opinions about robotics trends."
+    title = "From Our Blog"
+    subtitle = "These are just a few of our latest blog posts. They are written by team members about robot progress, technical how-tos, and opinions about robotics trends. Read more [here](blog/)."
