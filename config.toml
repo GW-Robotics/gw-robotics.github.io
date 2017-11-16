@@ -101,7 +101,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "robotics@gwu.edu"
 
-    about_us = """<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.
+    about_us = """<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences. Our main collaborator is GW IEEE.
         <br>
         <br>Meetings every Wednesday at 9pm in Funger 223.
       </p>
