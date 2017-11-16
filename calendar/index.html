@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HOW-TO: Arduino with Raspberry Pi</title>
+  <title>Calendar</title>
   <meta name="author" content="" />
 
   
@@ -56,9 +56,9 @@
   <link rel="alternate" href="https://gw-robotics.github.io/index.xml" type="application/rss+xml" title="GW Robotics">
 
   
-  <meta property="og:title" content="HOW-TO: Arduino with Raspberry Pi" />
+  <meta property="og:title" content="Calendar" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/blog/2016/10/29/how-to-arduino-with-raspberry-pi//" />
+  <meta property="og:url" content="/calendar//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -77,9 +77,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://gw-robotics.github.io/">
-                    <img src="https://gw-robotics.github.io/img/logo.png" alt="HOW-TO: Arduino with Raspberry Pi logo" class="hidden-xs hidden-sm">
-                    <img src="https://gw-robotics.github.io/img/logo-small.png" alt="HOW-TO: Arduino with Raspberry Pi logo" class="visible-xs visible-sm">
-                    <span class="sr-only">HOW-TO: Arduino with Raspberry Pi - go to homepage</span>
+                    <img src="https://gw-robotics.github.io/img/logo.png" alt="Calendar logo" class="hidden-xs hidden-sm">
+                    <img src="https://gw-robotics.github.io/img/logo-small.png" alt="Calendar logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Calendar - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -158,7 +158,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>HOW-TO: Arduino with Raspberry Pi</h1>
+                <h1>Calendar</h1>
             </div>
         </div>
     </div>
@@ -166,232 +166,27 @@
 
 
         <div id="content">
+            
+
             <div class="container">
 
                 <div class="row">
 
-                    
+                    <div class="col-md-12">
 
-                    <div class="col-md-9" id="blog-post">
-
-                        <p class="text-muted text-uppercase mb-small text-right">October 29, 2016</p>
-
-                        <div id="post-content">
-                          
-
-<p>The 2017 robot will be interacting between the Arduino (for sensor reading and PWM output) and the Raspberry Pi through a Python module called <a href="http://nanpy.github.io/">Nanpy</a>. The purpose of this how-to is for basic setup and usage that may not be completely obvious from Nanpy&rsquo;s official documentation. We will be using repositories from the GW Robotics organisation as a way to standardise everyone&rsquo;s code bases.</p>
-
-<h2 id="arduino-setup">Arduino Setup</h2>
-
-<p><strong>Please note, this is only necessary if the Arduino does not already have the Nanpy firmware compiled on it.</strong></p>
-
-<p>First, you will need to clone the <a href="https://github.com/GW-Robotics/nanpy-firmware">Nanpy Firmware repository</a> from Github. Then you will go into the repository and run the configure.sh script. The commands is as follows:</p>
-
-<pre><code class="language-shell">git clone https://github.com/GW-Robotics/nanpy-firmware.git
-cd nanpy-firmware
-./configure.sh
-</code></pre>
-
-<p>This will create a cfg.h file that you can edit. For an initial setup, I changed the value of USE_Servo to 1, as this will more than likely be used on the robot. The others can be changed and recompiled to the Arduino as they are needed.</p>
-
-<p>After that is completed, copy the /Nanpy/ directory from the repository into your Arduino sketchbook. In most cases, that is the /Arduino/ folder in your Documents directory. After that is done, open &ldquo;Nanpy.ino&rdquo; in your Arduino IDE. We are using an Arduino Mega 2560, so set your board to that. Set your port to whatever COM port the Arduino board is found. Verify and compile, and you should be all set to go.</p>
-
-<h2 id="raspberry-pi-setup">Raspberry Pi Setup</h2>
-
-<p><strong>Please note, you should already have Python and Python-Pip installed on your computer.</strong></p>
-
-<p>This honestly is much easier than setting up the Arduino. All you have to do is run the following command to install the Python module and you are ready to program:</p>
-
-<pre><code class="language-shell">sudo pip install nanpy
-</code></pre>
-
-<p>The only thing that could go wrong is if your Python installation did not come with Pyserial. You can check your installed modules using this command:</p>
-
-<pre><code class="language-shell">pip list
-</code></pre>
-
-<p>If that is the case, run this command:</p>
-
-<pre><code class="language-shell">sudo pip install pyserial
-</code></pre>
-
-<h2 id="usage">Usage</h2>
-
-<p>I am going to just paste in the test program I ran to make sure things are working. For the most part, all Arduino functions will work with Nanpy. This makes the usage explanation really easy, though I will note a few interesting points to remember.</p>
-
-<pre><code class="language-python">
-from nanpy import ArduinoApi, SerialManager
-from time import sleep
-
-print &quot;Establishing connections...&quot;
-connection = SerialManager(device = '/dev/ttyACM0')
-a = ArduinoApi(connection = connection)
-
-print &quot;Settting up output pin...&quot;
-a.pinMode(13, a.OUTPUT)
-
-print &quot;Loop time!&quot;
-while True:
-      a.digitalWrite(13, a.HIGH)
-      sleep(0.5)
-      a.digitalWrite(13, a.LOW)
-      sleep(0.5)
-				
-</code></pre>
-
-<p>The first important thing to note is the imports. You will need to at the very least import ArduinoApi and SerialManager from Nanpy. These are so that Python can run Arduino functions and to connect to the Arduino, respectively. The sleep function should also be imported, as it is used rather than the Arduino delay() function.</p>
-
-<p>The next important thing to note is that all the Arduino loop code is in an infinite while-loop. This is because Nanpy does not provide a loop() function, but this does the same thing. In the future, we need to figure out how to loop that separate from the rest of the code.</p>
+                        <div>
+                          <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=robotics%40email.gwu.edu&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
                         </div>
-                        
-                        
-                        <div id="comments">
-                            <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "gw-robotics" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-                        </div>
-                        
 
                     </div>
-                    
-
-                    
-
-                    
-
-                    <div class="col-md-3">
-
-                        
-
-                        
-
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-      <h3 class="panel-title">Search</h3>
-    </div>
-
-    <div class="panel-body">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
-            <div class="input-group">
-                <input type="search" name="q" results="0" class="form-control" placeholder="Search">
-                <input type="hidden" name="q" value="site:https://gw-robotics.github.io/">
-                <span class="input-group-btn">
-                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-      <h3 class="panel-title">Categories</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="nav nav-pills nav-stacked">
-            
-            <li><a href="https://gw-robotics.github.io/categories/control-systems">control-systems (4)</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/categories/design-cad">design-cad (1)</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/categories/meeting">meeting (1)</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="panel sidebar-menu">
-    <div class="panel-heading">
-      <h3 class="panel-title">Tags</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="tag-cloud">
-            
-            <li><a href="https://gw-robotics.github.io/tags/control-systems"><i class="fa fa-tags"></i> control-systems</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/design"><i class="fa fa-tags"></i> design</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/how-to"><i class="fa fa-tags"></i> how-to</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/meeting"><i class="fa fa-tags"></i> meeting</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/notes"><i class="fa fa-tags"></i> notes</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/opencv"><i class="fa fa-tags"></i> opencv</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/seas-innovation-challenge"><i class="fa fa-tags"></i> seas-innovation-challenge</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/setup"><i class="fa fa-tags"></i> setup</a>
-            </li>
-            
-            <li><a href="https://gw-robotics.github.io/tags/vision"><i class="fa fa-tags"></i> vision</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-                        
-
-                    </div>
-                    
-
-                    
 
                 </div>
                 
 
             </div>
+            
+
             
         </div>
         

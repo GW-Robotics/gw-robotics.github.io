@@ -44,6 +44,10 @@
   </url>
   
   <url>
+    <loc>https://gw-robotics.github.io/calendar/</loc>
+  </url>
+  
+  <url>
     <loc>https://gw-robotics.github.io/categories/</loc>
     <priority>0</priority>
   </url>
