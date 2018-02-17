@@ -133,6 +133,10 @@
   </url>
   
   <url>
+    <loc>https://gw-robotics.github.io/sumo/</loc>
+  </url>
+  
+  <url>
     <loc>https://gw-robotics.github.io/tags/</loc>
     <lastmod>2016-12-21T13:34:59+00:00</lastmod>
     <priority>0</priority>

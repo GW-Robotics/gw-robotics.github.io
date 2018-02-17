@@ -90,7 +90,7 @@ Arduino Setup Please note, this is only necessary if the Arduino does not alread
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gw-robotics.github.io/calendar/</guid>
-      <description> </description>
+      <description>     </description>
     </item>
     
     <item>
@@ -112,6 +112,18 @@ Please feel free to contact us, and we will respond to you as soon as possible.<
       <description>Robotics is a pretty difficult and complex topic, so here are some of the most commonly asked questions we hear. If you have a question not mentioned here, feel free to email us.
 1. WHAT IS A ROBOT? A robot is a machine that can complete a task that affects an environment.
 2. HOW DO I JOIN? All you have to do is show up to a meeting! We meet (almost) every Wednesday night in Funger 223 at 9pm.</description>
+    </item>
+    
+    <item>
+      <title>Sumo Robot Competition</title>
+      <link>https://gw-robotics.github.io/sumo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gw-robotics.github.io/sumo/</guid>
+      <description>Site Under Construction&amp;hellip;
+About The Competition Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams&amp;rsquo; robots out of a ring (much like normal sumo wrestling).
+This Sumo Robot Competition is GW-hosted Robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
+Rules Competition Rules  Each match has a 3-minute time, unless extended due to a tie 1 point is awarded for pushing the opposing robot out of the arena First team to score 2 points wins If time is reached and the score is tied, a sudden-death elimination will begin.</description>
     </item>
     
   </channel>
