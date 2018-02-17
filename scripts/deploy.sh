@@ -1,4 +1,3 @@
-#!/bin/bash
 set -e
 
 # Deploy built docs to this branch
