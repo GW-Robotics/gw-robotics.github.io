@@ -120,10 +120,9 @@ Please feel free to contact us, and we will respond to you as soon as possible.<
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gw-robotics.github.io/sumo/</guid>
-      <description>Site Under Construction&amp;hellip;
+      <description>.button { background-color: #004065; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 36px; }  Register Now!    
 About The Competition Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams&amp;rsquo; robots out of a ring (much like normal sumo wrestling).
-This Sumo Robot Competition is GW-hosted Robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
-Rules Competition Rules  Each match has a 3-minute time, unless extended due to a tie 1 point is awarded for pushing the opposing robot out of the arena First team to score 2 points wins If time is reached and the score is tied, a sudden-death elimination will begin.</description>
+This Sumo Robot Competition is GW-hosted Robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.</description>
     </item>
     
   </channel>
