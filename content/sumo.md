@@ -12,6 +12,8 @@ Robot-sumo is a popular type of robotics competition in which teams create robot
 
 This Sumo Robot Competition is GW-hosted Robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
 
+Instructions on building the robot kit can be found [here](https://github.com/GW-Robotics/Generic-Robot-Platform/wiki).
+
 # Rules
 ## Competition Rules
 1. Each match has a 3-minute time, unless extended due to a tie
