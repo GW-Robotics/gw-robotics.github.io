@@ -6,12 +6,13 @@ title = "Sumo Robot Competition"
 +++
 <style>
 table {
-border-collapse: collapse;
-margin: auto;
+  border-collapse: collapse;
+  margin: auto;
 }
 
 table, th, td {
-border: 1px solid black;
+  border: 1px solid black;
+  padding: 1em;
 }
 </style>
 
