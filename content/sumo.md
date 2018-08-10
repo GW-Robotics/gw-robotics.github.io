@@ -5,13 +5,15 @@ title = "Sumo Robot Competition"
 
 +++
 <style>
-  table {
-    border-collapse: collapse;
-  }
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
 
-  table, th, td {
-    border: 1px solid black;
-  }
+table, th, td {
+  border: 1px solid black;
+  padding: 1em;
+}
 </style>
 
 <center>
@@ -49,21 +51,21 @@ Instructions on building the robot kit can be found [here](https://github.com/GW
 
 # Competition Schedule
 
-Time  | Activity
-------|----------
-10:00 | Registration/ Parts Distribution
-12:00 | Lunch
-15:00 | Tournament Begins
-16:00 | Awards
-17:00 | Go Home
+| Time | Activity |
+| --- | --- |
+| 10:00 | Registration/ Parts Distribution |
+| 12:00 | Lunch |
+| 15:00 | Tournament Begins |
+| 16:00 | Awards |
+| 17:00 | Go Home |
 
 # Workshop Schedule
 
-Time  | Activity
-------|----------
-10:30 | How to Assemble Your Robot
-11:00 | Using SolidWorks to CAD Robot Attachments
-11:30 | Using Git for Software Version Control
+| Time | Activity |
+| --- | --- |
+| 10:30 | How to Assemble Your Robot |
+| 11:00 | Using SolidWorks to CAD Robot Attachments |
+| 11:30 | Using Git for Software Version Control |
 
 # Contact Information
 
