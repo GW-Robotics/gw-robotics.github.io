@@ -4,6 +4,16 @@ keywords = ["sumo", "competition"]
 title = "Sumo Robot Competition"
 
 +++
+<style>
+  table {
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+</style>
+
 <center>
 {{< cta "Register Now!" "https://goo.gl/forms/h5uWFm28TA0kJcW92" >}}
 </center>
