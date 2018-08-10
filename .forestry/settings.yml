@@ -5,11 +5,11 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: data/carousel
-  label: Carousel
+  path: data/clients
+  label: Clients
   create: all
   match: "**/*"
-  new_doc_ext: yaml
+  new_doc_ext: ".yaml"
 - type: directory
   path: content
   label: Pages
@@ -20,6 +20,12 @@ sections:
   label: Blog
   create: all
   match: "**/*"
+- type: directory
+  path: data/carousel
+  label: Carousel
+  create: all
+  match: "**/*"
+  new_doc_ext: ".yaml"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
