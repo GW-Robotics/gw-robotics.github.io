@@ -1,0 +1,30 @@
+---
+label: Blog
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Blog post title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  description: Blog post publish date
+  config:
+    display_utc: true
+    required: true
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Tags that post can be searched with
+- type: tag_list
+  label: Categories
+  name: categories
+  description: Blog categories that apply to the post
+- type: file
+  name: banner
+  label: Banner
+  description: Blog post banner/preview image
