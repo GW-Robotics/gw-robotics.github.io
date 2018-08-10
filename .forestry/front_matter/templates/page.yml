@@ -9,3 +9,11 @@ fields:
   description: Page Title
   config:
     required: true
+- type: text
+  name: description
+  label: Description
+  description: Page description (not shown currently)
+- type: list
+  name: keywords
+  label: Keywords
+  description: Page keywords for searching
