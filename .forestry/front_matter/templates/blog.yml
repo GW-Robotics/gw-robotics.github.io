@@ -28,3 +28,5 @@ fields:
   name: banner
   label: Banner
   description: Blog post banner/preview image
+pages:
+- content/test-page.md
