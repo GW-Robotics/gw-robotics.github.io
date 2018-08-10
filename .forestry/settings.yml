@@ -5,12 +5,6 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: data/clients
-  label: Clients
-  create: all
-  match: "**/*"
-  new_doc_ext: ".yaml"
-- type: directory
   path: content
   label: Pages
   create: all
@@ -23,6 +17,24 @@ sections:
 - type: directory
   path: data/carousel
   label: Carousel
+  create: all
+  match: "**/*"
+  new_doc_ext: ".yaml"
+- type: directory
+  path: data/clients
+  label: Clients
+  create: all
+  match: "**/*"
+  new_doc_ext: ".yaml"
+- type: directory
+  path: data/features
+  label: Features
+  create: all
+  match: "**/*"
+  new_doc_ext: ".yaml"
+- type: directory
+  path: data/testimonials
+  label: Testimonials
   create: all
   match: "**/*"
   new_doc_ext: ".yaml"
