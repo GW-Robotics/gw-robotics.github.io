@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: GW-Robotics/gw-robotics.github.io
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: 'static/img'
+public_folder: '/img'
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Categories', name: 'categories', widget: 'list' }
+      - { label: 'Banner', name: 'banner', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
