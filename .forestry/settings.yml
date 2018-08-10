@@ -5,6 +5,12 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
+  path: data/carousel
+  label: Carousel
+  create: all
+  match: "**/*"
+  new_doc_ext: ".yaml"
+- type: directory
   path: content
   label: Pages
   create: all
