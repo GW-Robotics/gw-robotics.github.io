@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://gw-robotics.github.io/blog/2016/10/29/how-to-arduino-with-raspberry-pi/</loc>
-    <lastmod>2016-10-29T02:04:04+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</loc>
     <lastmod>2016-10-26T02:15:43+00:00</lastmod>
   </url>
@@ -92,12 +87,6 @@
   
   <url>
     <loc>https://gw-robotics.github.io/sumo/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gw-robotics.github.io/tags/how-to/</loc>
-    <lastmod>2016-10-29T02:04:04+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

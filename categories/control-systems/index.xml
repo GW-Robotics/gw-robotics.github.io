@@ -23,16 +23,6 @@ python -V  After verifying that you have Python 2.</description>
     </item>
     
     <item>
-      <title>HOW-TO: Arduino with Raspberry Pi</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/29/how-to-arduino-with-raspberry-pi/</link>
-      <pubDate>Sat, 29 Oct 2016 02:04:04 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/blog/2016/10/29/how-to-arduino-with-raspberry-pi/</guid>
-      <description>The 2017 robot will be interacting between the Arduino (for sensor reading and PWM output) and the Raspberry Pi through a Python module called Nanpy. The purpose of this how-to is for basic setup and usage that may not be completely obvious from Nanpy&amp;rsquo;s official documentation. We will be using repositories from the GW Robotics organisation as a way to standardise everyone&amp;rsquo;s code bases.
-Arduino Setup Please note, this is only necessary if the Arduino does not already have the Nanpy firmware compiled on it.</description>
-    </item>
-    
-    <item>
       <title>Testing Arduino-Raspberry Pi Serial Comms</title>
       <link>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</link>
       <pubDate>Wed, 26 Oct 2016 02:15:43 +0000</pubDate>
