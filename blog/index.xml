@@ -41,15 +41,5 @@ It was confirmed that we are not using a suspension system on the middle wheels 
       <description>Tonight, Nam went through a tutorial on communicating via a USB cable between an Arduino and a Raspberry Pi. Here are a few things to note: - The tutorial did not mention the need to download PySerial. This was done via pip. - The Arduino sketch was compiled via a computer, and then the Arduino was connected to the Raspberry Pi. - The Raspberry Pi python program was written using Nano.</description>
     </item>
     
-    <item>
-      <title>First Software Meeting Summary</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/15/first-software-meeting-summary/</link>
-      <pubDate>Sat, 15 Oct 2016 00:36:01 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/blog/2016/10/15/first-software-meeting-summary/</guid>
-      <description>Today was the first software team meeting! As there is no finalised robot design, there was not much to talk about code-wise. Instead, points discussed during the GroupMe chat was just reiterated. They are as follows:
- Using Python on a Raspberry Pi to do most of the logic Using C/Arduino on an Arduino to get sensor input and output to motor controllers Arduino and Raspberry Pi will communicate through Serial protocols GitHub and Git will be used to manage the code The programming projects are as follows:  Driving Vision Baby grabbing mechanism Fire Extinguisher Mapping    The goal for the next programming meeting is to have more members, as well as start talking about pseudo-code.</description>
-    </item>
-    
   </channel>
 </rss>
