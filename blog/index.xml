@@ -23,16 +23,6 @@ python -V  After verifying that you have Python 2.</description>
     </item>
     
     <item>
-      <title>Design Meeting 10/29/2016 Notes</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/29/design-meeting-10-29-2016-notes/</link>
-      <pubDate>Sat, 29 Oct 2016 11:11:25 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/blog/2016/10/29/design-meeting-10-29-2016-notes/</guid>
-      <description>TL;DR We talked about drivetrain design.
-It was confirmed that we are not using a suspension system on the middle wheels with the H-drive. This decision was mainly to avoid complexity. The issue of the wheels hitting something was discussed and the possible sensors needed to detect that. It was decided that we just won&amp;rsquo;t hit anything unexpected, or use the ultrasonic sensor to detect if we do by chance. It was also stated that the frame will be above the wheels, allowing us to move the wheels to the edge of the size constraint.</description>
-    </item>
-    
-    <item>
       <title>Testing Arduino-Raspberry Pi Serial Comms</title>
       <link>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</link>
       <pubDate>Wed, 26 Oct 2016 02:15:43 +0000</pubDate>
