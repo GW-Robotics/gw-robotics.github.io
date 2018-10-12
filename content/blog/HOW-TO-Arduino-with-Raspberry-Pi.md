@@ -1,9 +1,11 @@
 +++
-title = "HOW-TO: Arduino with Raspberry Pi"
-date = "2016-10-29T02:04:04"
-tags = ["how-to"]
-categories = ["control-systems"]
 banner = "img/banners/banner-arduino.jpg"
+categories = ["control-systems"]
+date = "2016-10-29T02:04:04"
+draft = true
+tags = ["how-to"]
+title = "HOW-TO: Arduino with Raspberry Pi"
+
 +++
 The 2017 robot will be interacting between the Arduino (for sensor reading and PWM output) and the Raspberry Pi through a Python module called [Nanpy](http://nanpy.github.io/). The purpose of this how-to is for basic setup and usage that may not be completely obvious from Nanpy's official documentation. We will be using repositories from the GW Robotics organisation as a way to standardise everyone's code bases.
 
