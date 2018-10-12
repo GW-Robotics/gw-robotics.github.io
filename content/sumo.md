@@ -1,18 +1,18 @@
 +++
-description = "One-Day GW Hosted Sumo Wrestling Robot Competition"
-keywords = ["sumo", "competition"]
-title = "Sumo Robot Competition"
+description = "One-Day GW-Hosted Wrestling Robot Competition"
+keywords = ["hackathon", "robots", "sumo", "competition"]
+title = "GW Robotics Competition"
 
 +++
 <style>
 table {
-  border-collapse: collapse;
-  margin: auto;
+border-collapse: collapse;
+margin: auto;
 }
 
 table, th, td {
-  border: 1px solid black;
-  padding: 1em;
+border: 1px solid black;
+padding: 1em;
 }
 </style>
 
@@ -24,7 +24,7 @@ table, th, td {
 
 Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams' robots out of a ring (much like normal sumo wrestling).
 
-This Sumo Robot Competition is GW-hosted Robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
+This Sumo Robot Competition is GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
 
 Instructions on building the robot kit can be found [here](https://github.com/GW-Robotics/Generic-Robot-Platform/wiki).
 
@@ -40,14 +40,13 @@ Instructions on building the robot kit can be found [here](https://github.com/GW
 
 ## Participant Rules
 
-1. Each team should bring their own laptop for programming and design purposes (some computers will be available for use)
-2. Each team should bring a Bluetooth-enabled device (smartphone, laptop, etc) to control the robot
-3. Teams must report to matches at their designated start time, or incur the following penalties:
+1. Comply with all [GW Policies](https://compliance.gwu.edu/code-conduct-policies)
+2. Each team should bring their own laptop for programming and design purposes (some computers will be available for use)
+3. Each team should bring a Bluetooth-enabled device (smartphone, laptop, etc) to control the robot
+4. Teams must report to matches at their designated start time, or incur the following penalties:
 
 * 2 minutes late: Forfeit 1 point
 * 4 minutes late: Forfeit match
-
-1. Comply with all [GW Policies](https://compliance.gwu.edu/code-conduct-policies)
 
 # Competition Schedule
 
