@@ -1,9 +1,11 @@
 +++
-title = "Design Meeting 10/29/2016 Notes"
-date = "2016-10-29T11:11:25"
-tags = ["meeting", "notes", "design"]
-categories = ["design-cad"]
 banner = "img/banners/banner-1.jpg"
+categories = ["design-cad"]
+date = "2016-10-29T11:11:25"
+draft = true
+tags = ["meeting", "notes", "design"]
+title = "Design Meeting 10/29/2016 Notes"
+
 +++
 TL;DR We talked about drivetrain design.
 
