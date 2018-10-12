@@ -3,17 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gw-robotics.github.io/blog/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gw-robotics.github.io/calendar/</loc>
   </url>
   
@@ -27,18 +16,11 @@
   </url>
   
   <url>
-    <loc>https://gw-robotics.github.io/categories/control-systems/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gw-robotics.github.io/faq/</loc>
   </url>
   
   <url>
     <loc>https://gw-robotics.github.io/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,20 +29,7 @@
   </url>
   
   <url>
-    <loc>https://gw-robotics.github.io/tags/opencv/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gw-robotics.github.io/tags/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gw-robotics.github.io/tags/vision/</loc>
-    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
