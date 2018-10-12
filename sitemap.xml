@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gw-robotics.github.io/blog/2016/12/21/seas-innovation-challenge-start/</loc>
-    <lastmod>2016-12-21T13:34:59+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gw-robotics.github.io/blog/2016/11/08/how-to-opencv-installation-windows/</loc>
     <lastmod>2016-11-08T14:37:34+00:00</lastmod>
   </url>
@@ -29,7 +24,7 @@
   
   <url>
     <loc>https://gw-robotics.github.io/blog/</loc>
-    <lastmod>2016-12-21T13:34:59+00:00</lastmod>
+    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,12 +39,6 @@
   
   <url>
     <loc>https://gw-robotics.github.io/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gw-robotics.github.io/tags/control-systems/</loc>
-    <lastmod>2016-12-21T13:34:59+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -76,7 +65,7 @@
   
   <url>
     <loc>https://gw-robotics.github.io/</loc>
-    <lastmod>2016-12-21T13:34:59+00:00</lastmod>
+    <lastmod>2016-11-08T14:37:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,12 +98,6 @@
   </url>
   
   <url>
-    <loc>https://gw-robotics.github.io/tags/seas-innovation-challenge/</loc>
-    <lastmod>2016-12-21T13:34:59+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://gw-robotics.github.io/tags/setup/</loc>
     <lastmod>2016-10-26T02:15:43+00:00</lastmod>
     <priority>0</priority>
@@ -122,7 +105,7 @@
   
   <url>
     <loc>https://gw-robotics.github.io/tags/</loc>
-    <lastmod>2016-12-21T13:34:59+00:00</lastmod>
+    <lastmod>2016-10-29T11:11:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
