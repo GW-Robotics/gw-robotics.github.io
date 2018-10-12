@@ -22,14 +22,5 @@ To Install OpenCV and Dependencies First, make sure that your computer has the r
 python -V  After verifying that you have Python 2.</description>
     </item>
     
-    <item>
-      <title>Testing Arduino-Raspberry Pi Serial Comms</title>
-      <link>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</link>
-      <pubDate>Wed, 26 Oct 2016 02:15:43 +0000</pubDate>
-      
-      <guid>https://gw-robotics.github.io/blog/2016/10/26/testing-arduino-raspberry-pi-serial-comms/</guid>
-      <description>Tonight, Nam went through a tutorial on communicating via a USB cable between an Arduino and a Raspberry Pi. Here are a few things to note: - The tutorial did not mention the need to download PySerial. This was done via pip. - The Arduino sketch was compiled via a computer, and then the Arduino was connected to the Raspberry Pi. - The Raspberry Pi python program was written using Nano.</description>
-    </item>
-    
   </channel>
 </rss>
