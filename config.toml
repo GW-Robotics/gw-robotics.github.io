@@ -1,186 +1,90 @@
 baseurl = "https://gw-robotics.github.io/"
-title = "GW Robotics"
-theme = "hugo-universal-theme"
-languageCode = "en-us"
-# Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
-# Enable comments by entering your Disqus shortname
 disqusShortname = "gw-robotics"
-# Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-87246287-3"
-
-# Define the number of posts per page
+languageCode = "en-us"
 paginate = 10
-
-[menu]
-
-# Main menu
-
-[[menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 2
-
-[[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 3
-    
-[[menu.main]]
-    name = "Calendar"
-    url  = "/calendar/"
-    weight = 4
-
-[[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
-    weight = 5
-
-# Top bar social links menu
-
-[[menu.topbar]]
-    weight = 1
-    name = "GitHub"
-    url = "https://github.com/GW-Robotics/"
-    pre = "<i class='fa fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "https://www.facebook.com/gwroboticsteam/"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "https://twitter.com/gw_robotics"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-    
-[[menu.topbar]]
-    weight = 3
-    name = "Instagram"
-    url = "https://www.instagram.com/gw_robotics/"
-    pre = "<i class='fa fa-2x fa-instagram'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Email"
-    url = "mailto:robotics@gwu.edu"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
-
-[params]
-    viewMorePostLink = "/blog/"
-    author = "GW Robotics"
-    defaultKeywords = ["robotics", "hugo", "go"]
-    defaultDescription = "Information about the GW Robotics team"
-
-    # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
-
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "blue"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io email
-    email = "robotics@gwu.edu"
-
-    about_us = """<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences. Our main collaborator is GW IEEE.
-        <br>
-        <br>Meetings every Wednesday at 9pm in Funger 223.
-      </p>
-      """
-    copyright = "Copyright (c) 2017, GW Robotics; all rights reserved."
-
-    # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
-
-    logo = "img/logo.png"
-    address = """<p><strong>GW Robotics</strong>
-        <br>800 22nd St NW
-        <br>Washington, DC 20052
-        <br>
-        <strong>United States of America</strong>
-        <br>
-      </p>
-      """
-#    latitude = "38.89992"
-#    longitude = "-77.04943"
-
+theme = "hugo-universal-theme"
+title = "GW Robotics"
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-# Enable or disable top bar with social icons
-[params.topbar]
-    enable = true
-    text = """<p class="hidden-sm hidden-xs">Join our <a href="https://orgsync.com/126751/chapter">OrgSync</a>!</p>
-        <p class="hidden-md hidden-lg"><a href="https://orgsync.com/126751/chapter">OrgSync</a></p>
-    """
-#    text = """<p class="hidden-sm hidden-xs">Join our <a href="https://orgsync.com/126751/chapter">OrgSync</a>!</p>
-#      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-#      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-#      </p>
-#      """
-
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
-
+blog = "/blog/:year/:month/:day/:filename/"
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 4
+[[menu.main]]
+name = "Calendar"
+url = "/calendar/"
+weight = 3
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.topbar]]
+name = "Twitter"
+pre = "<i class='fa fa-2x fa-twitter'></i>"
+url = "https://twitter.com/gw_robotics"
+weight = 4
+[[menu.topbar]]
+name = "Email"
+pre = "<i class='fa fa-2x fa-envelope'></i>"
+url = "mailto:robotics@gwu.edu"
+weight = 5
+[[menu.topbar]]
+name = "Instagram"
+pre = "<i class='fa fa-2x fa-instagram'></i>"
+url = "https://www.instagram.com/gw_robotics/"
+weight = 3
+[[menu.topbar]]
+name = "Facebook"
+pre = "<i class='fa fa-2x fa-facebook'></i>"
+url = "https://www.facebook.com/gwroboticsteam/"
+weight = 2
+[[menu.topbar]]
+name = "GitHub"
+pre = "<i class='fa fa-2x fa-github'></i>"
+url = "https://github.com/GW-Robotics/"
+weight = 1
+[params]
+about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences. Our main collaborator is GW IEEE.\n        <br>\n        <br>Meetings every Wednesday at 9pm in Funger 223.\n      </p>\n      "
+address = "<p><strong>GW Robotics</strong>\n        <br>800 22nd St NW\n        <br>Washington, DC 20052\n        <br>\n        <strong>United States of America</strong>\n        <br>\n      </p>\n      "
+author = "GW Robotics"
+copyright = "Copyright (c) 2017, GW Robotics; all rights reserved."
+date_format = "January 2, 2006"
+defaultDescription = "Information about the GW Robotics team"
+defaultKeywords = ["robotics", "hugo", "go"]
+email = "robotics@gwu.edu"
+googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+logo = "img/logo.png"
+style = "blue"
+viewMorePostLink = "/blog/"
 [params.carousel]
-    enable = true
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
-
-[params.features]
-    enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
-
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-[params.see_more]
-    enable = false
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
-
+enable = true
 [params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Our Competitions"
-    subtitle = "These are the competitions we've competed in past and present years."
-
+enable = true
+subtitle = "These are the competitions we've competed in past and present years."
+title = "Our Competitions"
+[params.features]
+enable = true
 [params.recent_posts]
-    enable = true
-    title = "From Our Blog"
-    subtitle = "These are just a few of our latest blog posts. They are written by team members about robot progress, technical how-tos, and opinions about robotics trends. Read more [here](blog/)."
+enable = true
+subtitle = "These are just a few of our latest blog posts. They are written by team members about robot progress, technical how-tos, and opinions about robotics trends. Read more [here](blog/)."
+title = "From Our Blog"
+[params.see_more]
+enable = false
+icon = "fa fa-file-code-o"
+link_text = "Check other homepages"
+link_url = "#"
+subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+title = "Do you want to see more?"
+[params.testimonials]
+enable = false
+subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+title = "Testimonials"
+[params.topbar]
+enable = true
+text = "<p class=\"hidden-sm hidden-xs\">Join our <a href=\"https://orgsync.com/126751/chapter\">OrgSync</a>!</p>\n        <p class=\"hidden-md hidden-lg\"><a href=\"https://orgsync.com/126751/chapter\">OrgSync</a></p>\n    "
+[params.widgets]
+categories = true
+search = true
+tags = true

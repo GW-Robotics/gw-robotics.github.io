@@ -1,9 +1,11 @@
 +++
-title = "Testing Arduino-Raspberry Pi Serial Comms"
-date = "2016-10-26T02:15:43"
-tags = ["setup"]
-categories = ["control-systems"]
 banner = "img/banners/banner-5.jpg"
+categories = ["control-systems"]
+date = "2016-10-26T02:15:43"
+draft = true
+tags = ["setup"]
+title = "Testing Arduino-Raspberry Pi Serial Comms"
+
 +++
 Tonight, Nam went through a [tutorial](http://www.instructables.com/id/Raspberry-Pi-Arduino-Serial-Communication/) on communicating via a USB cable between an Arduino and a Raspberry Pi. Here are a few things to note:
 - The tutorial did not mention the need to download PySerial. This was done via pip.

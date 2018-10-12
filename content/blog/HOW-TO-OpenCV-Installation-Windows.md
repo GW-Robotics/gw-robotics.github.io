@@ -1,11 +1,12 @@
 +++
-title = "HOW-TO: OpenCV Installation (Windows)"
-date = "2016-11-08T14:37:34"
-tags = ["opencv", "vision"]
-categories = ["control-systems"]
 banner = "img/banners/banner-camera.jpg"
-+++
+categories = ["control-systems"]
+date = "2016-11-08T14:37:34"
+draft = true
+tags = ["opencv", "vision"]
+title = "HOW-TO: OpenCV Installation (Windows)"
 
++++
 This tutorial is for installation of OpenCV for Python on a Windows PC from prebuilt files. A fully detailed tutorial can be found [at the OpenCV documentation](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows).
 
 ## To Install OpenCV and Dependencies
