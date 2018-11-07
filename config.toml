@@ -41,7 +41,7 @@ pre = "<i class='fa fa-2x fa-github'></i>"
 url = "https://github.com/GW-Robotics/"
 weight = 1
 [params]
-about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.\n        <br>\n        <br>Meetings every Wednesday at 9pm in Tompkins 201\n      </p>\n      "
+about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.\n        <br>\n        <br>Our General Body Meetings are every Wednesday at 9pm in Tompkins 201. Check out our Calendar page for more information!\n      </p>\n      "
 address = "<p><strong>GW Robotics</strong>\n        <br>800 22nd St NW\n        <br>Washington, DC 20052\n        <br>\n        <strong>United States of America</strong>\n        <br>\n      </p>\n      "
 author = "GW Robotics"
 copyright = "Copyright (c) 2017, GW Robotics; all rights reserved."
