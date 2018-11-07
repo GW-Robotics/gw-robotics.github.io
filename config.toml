@@ -21,11 +21,6 @@ name = "Home"
 url = "/"
 weight = 1
 [[menu.topbar]]
-name = "Twitter"
-pre = "<i class='fa fa-2x fa-twitter'></i>"
-url = "https://twitter.com/gw_robotics"
-weight = 4
-[[menu.topbar]]
 name = "Email"
 pre = "<i class='fa fa-2x fa-envelope'></i>"
 url = "mailto:robotics@gwu.edu"
@@ -46,7 +41,7 @@ pre = "<i class='fa fa-2x fa-github'></i>"
 url = "https://github.com/GW-Robotics/"
 weight = 1
 [params]
-about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences. Our main collaborator is GW IEEE.\n        <br>\n        <br>Meetings every Wednesday at 9pm in Funger 223.\n      </p>\n      "
+about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.\n        <br>\n        <br>Meetings every Wednesday at 9pm in Tompkins 201\n      </p>\n      "
 address = "<p><strong>GW Robotics</strong>\n        <br>800 22nd St NW\n        <br>Washington, DC 20052\n        <br>\n        <strong>United States of America</strong>\n        <br>\n      </p>\n      "
 author = "GW Robotics"
 copyright = "Copyright (c) 2017, GW Robotics; all rights reserved."
@@ -66,10 +61,6 @@ subtitle = "These are the competitions we've competed in past and present years.
 title = "Our Competitions"
 [params.features]
 enable = true
-[params.recent_posts]
-enable = true
-subtitle = "These are just a few of our latest blog posts. They are written by team members about robot progress, technical how-tos, and opinions about robotics trends. Read more [here](blog/)."
-title = "From Our Blog"
 [params.see_more]
 enable = false
 icon = "fa fa-file-code-o"
