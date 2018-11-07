@@ -19,16 +19,14 @@ padding: 1em;
 </style>
 
 <center>
-{{< cta "Register Now!" "https://goo.gl/forms/h5uWFm28TA0kJcW92" >}}
+{{< cta "Register Now!" "https://goo.gl/forms/N4eSIJbOlMLe9Uat2" >}}
 </center>
 
 # About The Competition
 
 Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams' robots out of a ring (much like normal sumo wrestling).
 
-This Sumo Robot Competition is GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
-
-Instructions on building the robot kit can be found [here](https://github.com/GW-Robotics/Generic-Robot-Platform/wiki).
+The GW Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
 
 # Rules
 
@@ -54,11 +52,11 @@ Instructions on building the robot kit can be found [here](https://github.com/GW
 
 | Time | Activity |
 | --- | --- |
-| 10:00 | Registration/ Parts Distribution |
+| 9:00 | Registration/ Parts Distribution |
 | 12:00 | Lunch |
-| 15:00 | Tournament Begins |
-| 16:00 | Awards |
-| 17:00 | Go Home |
+| 14:00 | Tournament Begins |
+| 15:00 | Awards |
+| 16:00 | Go Home |
 
 # Workshop Schedule
 
