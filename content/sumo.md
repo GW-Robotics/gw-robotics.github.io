@@ -1,7 +1,7 @@
 +++
 description = "One-Day GW-Hosted Wrestling Robot Competition"
 keywords = ["hackathon", "robots", "sumo", "competition"]
-title = "GW Robotics Competition"
+title = "Sumo Robotics Competition"
 [menu.main]
 weight = 2
 
@@ -26,7 +26,7 @@ padding: 1em;
 
 Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams' robots out of a ring (much like normal sumo wrestling).
 
-The GW Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
+The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
 
 # Rules
 
