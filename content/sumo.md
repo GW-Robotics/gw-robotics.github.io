@@ -1,6 +1,6 @@
 +++
 description = "One-Day GW-Hosted Wrestling Robot Competition"
-keywords = ["hackathon", "robots", "sumo", "competition"]
+keywords = ["hackathon", "robots", "sumo", "competition", "hack day", "MLH Local Hack Day"]
 title = "Sumo Robotics Competition"
 [menu.main]
 weight = 2
@@ -26,7 +26,7 @@ padding: 1em;
 
 Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams' robots out of a ring (much like normal sumo wrestling).
 
-The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible.
+The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible. It is also part of Major League Hacking's nationwide [Local Hack Day](https://localhackday.mlh.io/) event on December 1, which means you'll get some free swag just for participating!
 
 # Rules
 
@@ -40,7 +40,7 @@ The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emp
 
 ## Participant Rules
 
-1. Comply with all [GW Policies](https://compliance.gwu.edu/code-conduct-policies)
+1. Comply with all [GW Policies](https://compliance.gwu.edu/code-conduct-policies) and the [MLH Code of Conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf)
 2. Each team should bring their own laptop for programming and design purposes (some computers will be available for use)
 3. Each team should bring a Bluetooth-enabled device (smartphone, laptop, etc) to control the robot
 4. Teams must report to matches at their designated start time, or incur the following penalties:
@@ -52,11 +52,11 @@ The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emp
 
 | Time | Activity |
 | --- | --- |
-| 9:00 | Registration/ Parts Distribution |
-| 12:00 | Lunch |
-| 14:00 | Tournament Begins |
-| 15:00 | Awards |
-| 16:00 | Go Home |
+| 9 AM | Registration/Parts Distribution |
+| NOON | Lunch |
+| 2 PM | Tournament Begins |
+| 3 PM | Awards |
+| 4 PM | Go home |
 
 # Workshop Schedule
 
