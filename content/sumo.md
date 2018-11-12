@@ -52,19 +52,11 @@ The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emp
 
 | Time | Activity |
 | --- | --- |
-| 9 AM | Registration/Parts Distribution |
+| 10 AM | Registration/Parts Distribution |
 | NOON | Lunch |
 | 2 PM | Tournament Begins |
 | 3 PM | Awards |
 | 4 PM | Go home |
-
-# Workshop Schedule
-
-| Time | Activity |
-| --- | --- |
-| 10:30 | How to Assemble Your Robot |
-| 11:00 | Using SolidWorks to CAD Robot Attachments |
-| 11:30 | Using Git for Software Version Control |
 
 # Contact Information
 
