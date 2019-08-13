@@ -11,35 +11,35 @@ blog = "/blog/:year/:month/:day/:filename/"
 [[menu.main]]
 name = "Contact"
 url = "/contact/"
-weight = 4
+weight = 5
 [[menu.main]]
 name = "Calendar"
 url = "/calendar/"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 [[menu.topbar]]
-name = "Email"
-pre = "<i class='fa fa-2x fa-envelope'></i>"
-url = "mailto:robotics@gwu.edu"
-weight = 5
-[[menu.topbar]]
-name = "Instagram"
-pre = "<i class='fa fa-2x fa-instagram'></i>"
-url = "https://www.instagram.com/gw_robotics/"
-weight = 3
+name = "GitHub"
+pre = "<i class='fa fa-2x fa-github'></i>"
+url = "https://github.com/GW-Robotics/"
+weight = 1
 [[menu.topbar]]
 name = "Facebook"
 pre = "<i class='fa fa-2x fa-facebook'></i>"
 url = "https://www.facebook.com/gwroboticsteam/"
 weight = 2
 [[menu.topbar]]
-name = "GitHub"
-pre = "<i class='fa fa-2x fa-github'></i>"
-url = "https://github.com/GW-Robotics/"
-weight = 1
+name = "Instagram"
+pre = "<i class='fa fa-2x fa-instagram'></i>"
+url = "https://www.instagram.com/gw_robotics/"
+weight = 3
+[[menu.topbar]]
+name = "Email"
+pre = "<i class='fa fa-2x fa-envelope'></i>"
+url = "mailto:robotics@gwu.edu"
+weight = 4
 [params]
 about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.\n        <br>\n        <br>Our General Body Meetings are every Wednesday at 9pm in Tompkins 201. Check out our Calendar page for more information!\n      </p>\n      "
 address = "<p><strong>GW Robotics</strong>\n        <br>800 22nd St NW\n        <br>Washington, DC 20052\n        <br>\n        <strong>United States of America</strong>\n        <br>\n      </p>\n      "

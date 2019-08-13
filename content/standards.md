@@ -1,3 +1,9 @@
++++
+[menu.main]
+name = "Version Control Guide"
+weight = 3
+
++++
 # GW Robotics Version Control Guide
 The purpose of this document is to provide standard protocol for using Git and GitHub for version control of GW Robotics software, as well as a quick reference.
 
