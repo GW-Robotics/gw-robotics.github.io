@@ -11,6 +11,16 @@
     
     
     <item>
+      <title></title>
+      <link>https://gw-robotics.github.io/standards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gw-robotics.github.io/standards/</guid>
+      <description>GW Robotics Version Control Guide The purpose of this document is to provide standard protocol for using Git and GitHub for version control of GW Robotics software, as well as a quick reference.
+Introduction Version control is an important aspect of software develop, providing collaboration and failure fallbacks if done correctly. Proper version control allows a team to work on their own version of a project and then merge them together with relative ease.</description>
+    </item>
+    
+    <item>
       <title>Calendar</title>
       <link>https://gw-robotics.github.io/calendar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
