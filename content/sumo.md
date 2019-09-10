@@ -19,7 +19,7 @@ padding: 1em;
 </style>
 
 <center>
-{{< cta "Register Now!" "https://goo.gl/forms/N4eSIJbOlMLe9Uat2" >}}
+{{< cta "Register Now!" "https://docs.google.com/forms/d/e/1FAIpQLSeQh96x2m-R1FVDFgz8oJVmNpNFZvsNM-uWvrKvwpTQDIVgaQ/viewform?usp=sf_link" >}}
 </center>
 
 # About The Competition
