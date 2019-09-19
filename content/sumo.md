@@ -26,7 +26,7 @@ padding: 1em;
 
 Robot-sumo is a popular type of robotics competition in which teams create robots of various sizes, with the objective of pushing the other teams' robots out of a ring (much like normal sumo wrestling).
 
-The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible. It is also part of Major League Hacking's nationwide [Local Hack Day](https://localhackday.mlh.io/) event on December 1, which means you'll get some free swag just for participating!
+The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emphasis on being as student-friendly and accessible as possible. It is also part of Major League Hacking's nationwide [Local Hack Day: Learn](https://localhackday.mlh.io/learn) event on October 12, which means you'll get some free swag just for participating!
 
 # Rules
 
@@ -60,4 +60,4 @@ The Sumo Robotics Competition is a GW-hosted robot-sumo competition, with an emp
 
 # Contact Information
 
-Have questions? Feel free to contact [us](mailto:robotics@gwu.edu)!
+Questions? Comments? Feel free to [contact us](mailto:robotics@gwu.edu)!
