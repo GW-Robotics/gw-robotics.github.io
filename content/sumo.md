@@ -18,8 +18,12 @@ padding: 1em;
 }
 </style>
 
-<center>
+<!-- <center>
 {{< cta "Register Now!" "https://docs.google.com/forms/d/e/1FAIpQLSeQh96x2m-R1FVDFgz8oJVmNpNFZvsNM-uWvrKvwpTQDIVgaQ/viewform?usp=sf_link" >}}
+</center> -->
+
+<center>
+{{< cta "Sumo Wiki" "https://github.com/GW-Robotics/Sumo-Competition/wiki" >}}
 </center>
 
 # About The Competition
