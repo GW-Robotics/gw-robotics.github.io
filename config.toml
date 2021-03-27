@@ -74,6 +74,7 @@ subtitle = "We have worked with many clients and we always like to hear they com
 title = "Testimonials"
 [params.topbar]
 enable = true
+text = " "
 [params.widgets]
 categories = true
 search = true
