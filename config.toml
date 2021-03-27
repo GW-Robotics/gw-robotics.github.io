@@ -1,7 +1,6 @@
 baseurl = "https://gw-robotics.github.io/"
 defaultContentLanguage = "en"
 disqusShortname = "gw-robotics"
-googleAnalytics = "UA-87246287-3"
 languageCode = "en-us"
 paginate = 10
 theme = "hugo-universal-theme"
@@ -73,7 +72,7 @@ enable = false
 subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 title = "Testimonials"
 [params.topbar]
-enable = true
+enable = false
 text = "<p class=\"hidden-sm hidden-xs\">Join our <a href=\"https://orgsync.com/126751/chapter\">OrgSync</a>!</p>\n        <p class=\"hidden-md hidden-lg\"><a href=\"https://orgsync.com/126751/chapter\">OrgSync</a></p>\n    "
 [params.widgets]
 categories = true
