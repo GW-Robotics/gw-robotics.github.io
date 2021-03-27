@@ -1,0 +1,81 @@
+baseurl = "https://gw-robotics.github.io/"
+defaultContentLanguage = "en"
+disqusShortname = "gw-robotics"
+googleAnalytics = ""
+languageCode = "en-us"
+paginate = 10
+theme = "hugo-universal-theme"
+title = "GW Robotics"
+[Permalinks]
+blog = "/blog/:year/:month/:day/:filename/"
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Calendar"
+url = "/calendar/"
+weight = 3
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.topbar]]
+name = "GitHub"
+pre = "<i class='fa fa-2x fa-github'></i>"
+url = "https://github.com/GW-Robotics/"
+weight = 1
+[[menu.topbar]]
+name = "Facebook"
+pre = "<i class='fa fa-2x fa-facebook'></i>"
+url = "https://www.facebook.com/gwroboticsteam/"
+weight = 3
+[[menu.topbar]]
+name = "Instagram"
+pre = "<i class='fa fa-2x fa-instagram'></i>"
+url = "https://www.instagram.com/gw_robotics/"
+weight = 2
+[[menu.topbar]]
+name = "Email"
+pre = "<i class='fa fa-2x fa-envelope'></i>"
+url = "mailto:robotics@gwu.edu"
+weight = 4
+[params]
+about_us = "<p>We are a student-run university robotics team created in Fall 2015. We are affiliated with The George Washington University and the School of Engineering and Applied Sciences.\n        <br>\n        <br>Our General Body Meetings are every Wednesday at 9pm in Tompkins 201. Check out our Calendar page for more information!\n      </p>\n      "
+address = "<p><strong>GW Robotics</strong>\n        <br>800 22nd St NW\n        <br>Washington, DC 20052\n        <br>\n        <strong>United States of America</strong>\n        <br>\n      </p>\n      "
+author = "GW Robotics"
+copyright = "Copyright (c) 2019, GW Robotics; all rights reserved."
+date_format = "January 2, 2006"
+defaultDescription = "Information about the GW Robotics team"
+defaultKeywords = ["robotics", "hugo", "go"]
+email = "robotics@gwu.edu"
+googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+logo = "img/logo.png"
+style = "blue"
+viewMorePostLink = "/blog/"
+[params.carousel]
+enable = true
+[params.clients]
+enable = true
+subtitle = "These are the competitions we've competed in past and present years."
+title = "Our Competitions"
+[params.features]
+enable = true
+[params.see_more]
+enable = false
+icon = "fa fa-file-code-o"
+link_text = "Check other homepages"
+link_url = "#"
+subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+title = "Do you want to see more?"
+[params.testimonials]
+enable = false
+subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+title = "Testimonials"
+[params.topbar]
+enable = true
+text = " "
+[params.widgets]
+categories = true
+search = true
+tags = true
