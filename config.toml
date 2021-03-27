@@ -72,8 +72,7 @@ enable = false
 subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 title = "Testimonials"
 [params.topbar]
-enable = false
-text = "<p class=\"hidden-sm hidden-xs\">Join our <a href=\"https://orgsync.com/126751/chapter\">OrgSync</a>!</p>\n        <p class=\"hidden-md hidden-lg\"><a href=\"https://orgsync.com/126751/chapter\">OrgSync</a></p>\n    "
+enable = true
 [params.widgets]
 categories = true
 search = true
