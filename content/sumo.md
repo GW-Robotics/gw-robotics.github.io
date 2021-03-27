@@ -3,6 +3,7 @@ description = "One-Day GW-Hosted Wrestling Robot Competition"
 keywords = ["hackathon", "robots", "sumo", "competition", "hack day", "MLH Local Hack Day"]
 title = "Sumo Robotics Competition"
 [menu.main]
+name = "Sumo Competition"
 weight = 2
 
 +++
