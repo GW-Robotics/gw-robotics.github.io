@@ -1,6 +1,7 @@
 baseurl = "https://gw-robotics.github.io/"
 defaultContentLanguage = "en"
 disqusShortname = "gw-robotics"
+googleAnalytics = ""
 languageCode = "en-us"
 paginate = 10
 theme = "hugo-universal-theme"
