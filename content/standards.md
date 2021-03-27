@@ -1,7 +1,7 @@
 +++
 [menu.main]
 name = "Version Control Guide"
-weight = 3
+weight = 4
 
 +++
 # GW Robotics Version Control Guide
@@ -137,5 +137,3 @@ Yet to be done, but should be eventually | Currently being worked on by a member
 
 ### Questions? Comments?
 Let us know by contacting us!
-
-
