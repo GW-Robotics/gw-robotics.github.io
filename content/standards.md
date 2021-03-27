@@ -5,40 +5,49 @@ weight = 4
 
 +++
 # GW Robotics Version Control Guide
+
 The purpose of this document is to provide standard protocol for using Git and GitHub for version control of GW Robotics software, as well as a quick reference.
 
 ## Introduction
+
 Version control is an important aspect of software develop, providing collaboration and failure fallbacks if done correctly. Proper version control allows a team to work on their own version of a project and then merge them together with relative ease. Version control also documents a project’s history.
 
 ## Terminology
+
 The following terminology is to be used in discussion of version control.
-- Repository: Database of code and code changes
-- Origin: Version of repository on GitHub
-- Local: Version of repository on personal computer
-- Cloning: Making a local repository of the origin repository
-- Working Copy: see Local
-- Checkout: Working copy of a branch, commit, or tag to be edited and committed
-- Commit: Set of code edits to be added back into the repository
-- Push: The act of sending a set of working copy commits to the repository
-- Pull: The act of receiving repository commits to your working copy
-- Pull Request (PR): Request on GitHub to merge one branch to another
-- Merge Conflict: When one commit in a branch has unmatching code with another commit
-- Detached Head: Temporary branch checking out a specific commit
-- Staging: Setting changed files for committing
+
+* Repository: Database of code and code changes
+* Origin: Version of repository on GitHub
+* Local: Version of repository on personal computer
+* Cloning: Making a local repository of the origin repository
+* Working Copy: see Local
+* Checkout: Working copy of a branch, commit, or tag to be edited and committed
+* Commit: Set of code edits to be added back into the repository
+* Push: The act of sending a set of working copy commits to the repository
+* Pull: The act of receiving repository commits to your working copy
+* Pull Request (PR): Request on GitHub to merge one branch to another
+* Merge Conflict: When one commit in a branch has unmatching code with another commit
+* Detached Head: Temporary branch checking out a specific commit
+* Staging: Setting changed files for committing
 
 ## Git
+
 The GW Robotics team has chosen Git as their version control system due to its popularity and distributed version control. Git can be used either in command line or via GUI. It is up to the team member’s discretion how they use Git.
 
 ## GitHub
+
 GitHub is a free hosting site for Git repositories. All GW Robotics repositories are owned by the GW-Robotics GitHub organisation.
 
 ## Workflow
+
 Before any work can be done at all, the repository must be cloned from GitHub. Following that, minor changes and major changes have very different procedures.
 
 ## Minor Changes
-The following steps must be taken prior to working on minor code changes (small bugs, documentation, etc) to prevent conflicts:
+
+The following steps must be taken prior to working on minor code changes (small bugs, documentation, etc.) to prevent conflicts:
+
 1. Pull from GitHub repository
- 2. Switch to “develop” branch of the local repository
+2. Switch to “develop” branch of the local repository
 3. Work on code
 4. Ensure that the code compiles (and test if possible)
 5. Commit code to local repository following “Committing” standards
@@ -46,24 +55,28 @@ The following steps must be taken prior to working on minor code changes (small 
 7. Create a pull request and notify repository admins to accept the pull request
 
 ## Major Changes
+
 The following steps must be taken prior to working on a major code change (new features, large optimisations, etc):
-1. Pull from GitHub repository
-2. Switch to “develop” branch of the local repository
-3. Create a new branch titled “feature/name” (i.e. “feature/drivetrain”)
-4. Push the new branch to GitHub
-5. Work on code
-6. Ensure that the code compiles (and test if possible)
-7. Commit code to local repository following “Committing” standards
-8. Push to “feature/name” branch of the origin repository
-9. Go to the GitHub repository
+
+ 1. Pull from GitHub repository
+ 2. Switch to “develop” branch of the local repository
+ 3. Create a new branch titled “feature/name” (i.e. “feature/drivetrain”)
+ 4. Push the new branch to GitHub
+ 5. Work on code
+ 6. Ensure that the code compiles (and test if possible)
+ 7. Commit code to local repository following “Committing” standards
+ 8. Push to “feature/name” branch of the origin repository
+ 9. Go to the GitHub repository
 10. Create a pull request to merge your feature into the develop branch
 11. Commit the pull request
 12. Create a pull request and notify repository admins to make a pull request to the master branch
 
 ## Committing
+
 The frequency of commits is up to the discretion of the team member, but it is recommended to commit every time a new working section of code is written. Commits only require a summary message, which should describe briefly what the commit adds to the repository. All commits should:
-- Be a complete section of code that compiles and hopefully is tested
-- Have a commit message that describes the new changes well
+
+* Be a complete section of code that compiles and hopefully is tested
+* Have a commit message that describes the new changes well
 
 If the uncommitted change are too much and are too varied, then a more general commit is acceptable. This creates issues down the road if bugs from a previous commit arises and a revert is needed.
 
@@ -72,7 +85,9 @@ To prevent commits with too many things in them, it is best to avoid using `git 
 Do not commit generated files. These include `.java`, `.pyc`, and `.bin` files. They can be generated by each programmer when needed. Use a `.gitignore` file to avoid this.
 
 ## Pulling
+
 Pulling the latest commits from the GitHub repository is one of the most important preventative steps to avoiding merge conflicts. Therefore, the following procedures must be done when pulling:
+
 1. Make sure there are no uncommitted changes in the local repository (git status or through GUI)
 2. If there are uncommitted changes, then that means the workflow was not followed
 3. Commit the changes and resolve merge conflicts after pulling
@@ -80,18 +95,23 @@ Pulling the latest commits from the GitHub repository is one of the most importa
 5. Look at the commit history and make sure that it matches what is on GitHub
 
 ## Pushing
+
 Pushing commits from the local repository is how one shares their changes to everyone else to pull. The first step is to make a set of commits on the local repository. As long as a commit is stable and benefits the code, it is good to push it immediately.
 
 When working on a large number of small commits to implement a larger feature, it is best to wait until the full set of commits for the feature are made first.
 
 ## Merge Conflicts
-A merge conflict is a common occurrence when multiple team members are working on a single file. 
+
+A merge conflict is a common occurrence when multiple team members are working on a single file.
 
 ### Resolving Conflicts
+
 The following will happen when a merge conflict occurs:
+
 1. Git will switch you automatically to a detached head with the conflicting file unstaged.
 2. Open the conflicting file(s) in a code editor or merge tool
 3. The conflicting file will look like this:
+
 ```c
 <<<<<<<<< HEAD
 int variable1 = 0;
@@ -99,41 +119,51 @@ int variable1 = 0;
 int variable1 = 123;
 >>>>>>>>> refs/heads/commit aefawe23av3
 ```
+
 The `======` separates the two conflicting versions of the code
 
-4. Keep one, and delete the other.
-5. Remove the separators
-You should end up with this:
+1. Keep one, and delete the other.
+2. Remove the separators
+   You should end up with this:
+
 ```c
 int variable1 = 0;
 ```
+
 Things get more difficult when large sections of code are conflicting, but with good adherence to earlier points, this should not happen often.
 
 ### Preventing Conflicts
+
 Coordinate with other team members. An object-oriented design lends itself to multiple people working at once because everyone can work on different files and classes. When changes are required outside of one’s class, it is important to check with other team members.
 
 ## Git Tags
+
 Git has the ability to create tags at specific commits of a branch. GW Robotics creates tags on the master branch denoting stable versions of the code. The version tags are named as follows:
 
-Major Version | Minor Version | Bugfixes/Hotfixes
---- | --- | ---
-1 | 2 | 1
+| Major Version | Minor Version | Bugfixes/Hotfixes |
+| --- | --- | --- |
+| 1 | 2 | 1 |
 
 ## GitHub Features
+
 ### Releases
+
 Releases on GitHub are to be made of every new major tag. The description should include new features on top and currently implemented features afterwards.
 
 ### Wiki
+
 The project Wiki should be maintained by the repository admin. It should include the project’s file architecture, used hardware, and libraries used.
 
 A section for subsystems and features is important for anyone editing the project in the future. The wiki should reference any useful articles read during the programming process.
 
 ### Projects
+
 A kanban board should be created to track the workflow of the repository tasks. It should be broken down as follows:
 
-TODO | In-Progress | In-Review | Done
---- | --- | --- | ---
-Yet to be done, but should be eventually | Currently being worked on by a member | Finished, but needs testing and integration | New, fully implemented feature
+| TODO | In-Progress | In-Review | Done |
+| --- | --- | --- | --- |
+| Yet to be done, but should be eventually | Currently being worked on by a member | Finished, but needs testing and integration | New, fully implemented feature |
 
 ### Questions? Comments?
+
 Let us know by contacting us!
